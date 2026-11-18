@@ -2,8 +2,5 @@ numpy
 scipy
 h5py>3.7
 netcdf4
-spefile
-edffile
 tifffile
-dxfile
 pandas

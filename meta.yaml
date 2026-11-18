@@ -19,10 +19,7 @@ requirements:
     - scipy    
     - h5py    
     - netcdf4
-    - spefile    
-    - edffile    
     - tifffile    
-    - dxfile
     - pandas
     
 test:
