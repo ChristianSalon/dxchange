@@ -241,7 +241,7 @@ def read_xrm(fname, slice_range=None):
     data_type = data_type.newbyteorder('<')
 
     arr = np.reshape(
-        np.fromstring(data, data_type),
+        np.frombuffer(data, data_type),
         (
             metadata["image_width"],
             metadata["image_height"]
